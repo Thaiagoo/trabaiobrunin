@@ -10,7 +10,7 @@ package gitproject;
  */
 public class project {
     public static void main(String[] args) {
-        System.out.println("Hello Guys!");
-        System.out.println("Deu certo?");
+        System.out.println("Hello Brunin e pessoal");
+        System.out.println("Deu certo!");
     }
 }
