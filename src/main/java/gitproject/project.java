@@ -36,11 +36,11 @@ public class project {
     }
 
     public int proximoNumero(int n){
-        return n++; //n = n+1 n+=1
+        return n++; 
     }
     
     public int anteriorNumero(int n){
-        return n--; //n = n-1 n-=1
+        return n--; 
     }
     System.out.println("Deu certo!");
 }
