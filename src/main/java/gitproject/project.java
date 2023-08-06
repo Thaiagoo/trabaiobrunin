@@ -4,13 +4,45 @@
  */
 package gitproject;
 
-/**
- *
- * @author Pichau
- */
 public class project {
-    public static void main(String[] args) {
-        System.out.println("Hello Brunin e pessoal");
-        System.out.println("Deu certo!");
+        
+    public class Operacoes {
+
+    public double divisao(double a,
+                        double b) {
+        if(a != 0){
+            double quociente = a / b;
+            return quociente;
+        }
+        return 0;
     }
+
+    public double multiplicacao(double a, double b) {
+        return a * b;
+    }
+
+    public double soma(double x, double y) {
+        return x + y;
+    }
+
+    public double subtracao(double x, double y) {
+        x -= y;
+        return x;
+    }
+
+    public int restoDivisao(int divisor, int dividendo) {
+        int resto = divisor % dividendo;
+        return resto;
+    }
+
+    public int proximoNumero(int n){
+        return n++; //n = n+1 n+=1
+    }
+    
+    public int anteriorNumero(int n){
+        return n--; //n = n-1 n-=1
+    }
+    System.out.println("Deu certo!");
 }
+        
+
